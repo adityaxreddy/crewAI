@@ -1,0 +1,7 @@
+runtime: python312
+service: crewai-agent
+instance_class: F4_1G
+
+handlers:
+- url: /.*
+  script: auto
